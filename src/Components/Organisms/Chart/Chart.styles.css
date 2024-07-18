@@ -1,0 +1,16 @@
+.chart-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chart {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.landing-page-container {
+    padding: 20px;
+  }
+  
+  .HeaderTitleContainer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container,
+  .table-container {
+    margin-bottom: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container,
+    .table-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

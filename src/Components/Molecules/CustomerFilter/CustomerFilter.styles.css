@@ -1,0 +1,40 @@
+.customer-filter-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .customer-filter-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s;
+    appearance: none; /* Remove default arrow for custom styling */
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24'><path fill='gray' d='M7 10l5 5 5-5z'/></svg>") no-repeat right 10px center;
+    background-color: #fff;
+  }
+  
+  .customer-filter-select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .customer-filter-select {
+      max-width: 100%;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .customer-filter-select {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
